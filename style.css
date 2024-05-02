@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 22px;
   display: inline;
 }
 
@@ -18,7 +18,7 @@ header {
 }
 
 #batata {
-  width: 50px;
+  width: 45px;
 }
 
 nav {
@@ -31,11 +31,11 @@ nav {
 
 nav p {
   text-align: center;
-  width: 180px;
-  font-size: 20px;
+  width: 120px;
+  font-size: 14px;
   background-color: bisque;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
   font-weight: bold;
 }
 
@@ -60,7 +60,7 @@ main {
 article {
   padding: 0 36px;
   border-radius: 10px;
-  width: 80%;
+  width: 85%;
   background-color: bisque;
   display: flex;
   justify-content: center;
@@ -81,4 +81,38 @@ article div {
 article img {
   padding-bottom: 20px;
   width: 50%;
+}
+
+#navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.card-personagens{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.personagem{
+  border-radius: 10px;
+  background-color: lightpink;
+  padding: 10px;
+}
+
+iframe{
+  width: 100%;
+  height: 28rem;
+  border-radius: 10px;
+}
+
+#kahoot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
