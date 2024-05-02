@@ -1,9 +1,24 @@
+/* #Cores
+#003D3D
+#FFC745
+#fdfdfd
+ */
+
+@font-face {
+  font-family: grobold;
+  src: url(GROBOLD.ttf);
+}
+
 body {
+  background-color: #fdfdfd;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
 }
 
 h1 {
+  font-family: grobold;
+  color: #fdfdfd;
+  letter-spacing: 4px;
   font-size: 40px;
   display: inline;
 }
@@ -12,9 +27,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: bisque;
+  background-color: #003d3d;
   position: sticky;
   width: 100%;
+}
+
+#machadopng {
+  width: 180px;
 }
 
 #batata {
@@ -22,7 +41,7 @@ header {
 }
 
 nav {
-  background-color: rgb(255, 207, 148);
+  background-color: #ffc745;
   display: flex;
   justify-content: center;
   gap: 120px;
@@ -33,14 +52,15 @@ nav p {
   text-align: center;
   width: 180px;
   font-size: 20px;
-  background-color: bisque;
+  background-color: #003d3d;
+  color: #fdfdfd;
   border-radius: 10px;
   padding: 10px;
   font-weight: bold;
 }
 
 nav p:hover {
-  background-color: rgb(255, 140, 0);
+  background-color: #006969;
 }
 
 a {
