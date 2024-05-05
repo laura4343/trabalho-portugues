@@ -9,6 +9,11 @@
   src: url(GROBOLD.ttf);
 }
 
+@font-face {
+  font-family: hello-valentina;
+  src: url(Hello\ Valentina.ttf);
+}
+
 body {
   background-color: #fdfdfd;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -54,10 +59,13 @@ nav {
 }
 
 nav p {
+  font-family: grobold;
+  letter-spacing: 2px;
+  color: #fdfdfd;
   text-align: center;
   width: 180px;
-  font-size: 12px;
-  background-color: bisque;
+  font-size: 16px;
+  background-color: #003d3d;
   border-radius: 10px;
   padding: 4px;
   font-weight: bold;
@@ -83,10 +91,12 @@ main {
 }
 
 article {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fdfdfd;
   padding: 0 36px;
   border-radius: 10px;
   width: 85%;
-  background-color: bisque;
+  background-color: #003d3d;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -95,8 +105,9 @@ article {
 
 footer {
   padding: 20px;
-  background-color: bisque;
+  background-color: #003d3d;
   font-weight: bold;
+  color: #fdfdfd;
 }
 
 article div {
@@ -106,7 +117,7 @@ article div {
 
 article img {
   padding-bottom: 20px;
-  width: 50%;
+  width: 40%;
 }
 
 #navbar {
@@ -126,8 +137,9 @@ article img {
 }
 
 .personagem {
+  text-align: center;
   border-radius: 10px;
-  background-color: lightpink;
+  background-color: #006969;
   padding: 10px;
 }
 
@@ -138,6 +150,55 @@ iframe {
   margin-bottom: 1rem;
 }
 
-article img{
-  width: 30%;
+article img {
+  width: 40%;
+}
+
+h2 {
+  letter-spacing: 3px;
+  font-family: hello-valentina;
+  font-size: 54px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 10px;
+  text-align: left;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+footer div {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+footer ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+article .divv {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topicos {
+  padding-bottom: 10px;
+  color: #ffc745;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: grobold;
+  font-size: 24px;
+}
+
+article li {
+  list-style-type: none;
+  border-radius: 5px;
+  background-color: #006969;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
 }
