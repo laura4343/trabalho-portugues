@@ -200,5 +200,7 @@ article li {
   border-radius: 5px;
   background-color: #006969;
   margin-bottom: 5px;
+  padding: 10px;
   padding-bottom: 10px;
+  box-shadow: 2px 2px rgba(44, 44, 44, 0.7);
 }
