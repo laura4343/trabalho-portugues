@@ -52,7 +52,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 120px;
+  gap: 70px;
   flex-direction: row;
   width: 100%;
   height: 2.2rem;
@@ -140,7 +140,7 @@ article img {
   text-align: center;
   border-radius: 10px;
   background-color: #006969;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
 }
 
 iframe {
@@ -160,8 +160,7 @@ h2 {
   font-size: 54px;
   font-weight: bold;
   color: #ffffff;
-  margin-top: 10px;
-  text-align: left;
+  margin: 10px 0;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
 }
 
@@ -180,10 +179,10 @@ footer h3 {
   text-align: center;
 }
 
-article .divv {
+.divv {
   width: 70%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .topicos {
@@ -203,4 +202,6 @@ article li {
   padding: 10px;
   padding-bottom: 10px;
   box-shadow: 2px 2px rgba(44, 44, 44, 0.7);
+  margin-bottom: 10px;
+  padding: 10px;
 }
